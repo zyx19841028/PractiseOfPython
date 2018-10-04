@@ -39,3 +39,9 @@ def generateList4(d):
     return l
 
 print(generateList4({"this":0,"is":1,"a":2,"test":3}))
+#practise
+L1 = ['Hello', 'World', 18, 'Apple', None]
+def tolower(s):
+    l = [x.lower() for x in s if isinstance(x,str)]
+    return l
+print(tolower(L1))
