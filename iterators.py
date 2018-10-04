@@ -20,3 +20,14 @@ def iter3(s):
     for v in s:
         print(v)
 iter3(s)
+#
+def maxmin(l):
+    min=l[0]
+    max=l[0]
+    for v in l:
+        if v > max:
+            max = v
+        if v < min:
+            min = v
+    return min,max
+print(maxmin(l))
