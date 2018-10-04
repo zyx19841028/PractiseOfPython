@@ -1,0 +1,2 @@
+# PractiseOfPython
+functions of parameters
